@@ -31,6 +31,7 @@
 		851A773C18F831C60000252E /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 851A773718F831C60000252E /* zbar-help.html */; };
 		851A773D18F831C60000252E /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 851A773818F831C60000252E /* zbar-helpicons.png */; };
 		851A773E18F831C60000252E /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 851A773918F831C60000252E /* zbar-samples.png */; };
+		8523CEB118F99EC60095BFA1 /* appnium-test.py in Resources */ = {isa = PBXBuildFile; fileRef = 8523CEB018F99EC60095BFA1 /* appnium-test.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		851A773718F831C60000252E /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		851A773818F831C60000252E /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		851A773918F831C60000252E /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		8523CEB018F99EC60095BFA1 /* appnium-test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "appnium-test.py"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		851A770218F8252E0000252E /* ScannerTests */ = {
 			isa = PBXGroup;
 			children = (
+				8523CEB018F99EC60095BFA1 /* appnium-test.py */,
 				851A770818F8252E0000252E /* ScannerTests.m */,
 				851A770318F8252E0000252E /* Supporting Files */,
 			);
@@ -359,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				851A770718F8252E0000252E /* InfoPlist.strings in Resources */,
+				8523CEB118F99EC60095BFA1 /* appnium-test.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +588,7 @@
 				851A770E18F8252E0000252E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		851A770F18F8252E0000252E /* Build configuration list for PBXNativeTarget "ScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +597,7 @@
 				851A771118F8252E0000252E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
